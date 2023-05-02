@@ -4,7 +4,7 @@ import { Observable, from } from 'rxjs';
 
 @Injectable()
 export class StaticDataSource {
-  private products: Product[] = new Array(20).fill(undefined).map((_, i) => {
+  private products: Product[] = new Array(50).fill(undefined).map((_, i) => {
     const res = new Product(
       i + 1,
       `Product ${i + 1}`,
