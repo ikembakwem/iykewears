@@ -12,7 +12,7 @@ export class StaticDataSource {
       `Product ${i + 1} (Category ${
         i % 3 === 0 ? 'Tres' : i % 3 > 1 ? 'Dias' : 'Uno'
       })`,
-      149
+      Math.floor(Math.random() * 200 + 199)
     );
     return res;
   });
