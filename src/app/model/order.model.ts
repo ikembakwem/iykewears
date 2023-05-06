@@ -19,6 +19,6 @@ export class Order {
     this.name = this.address = this.city = undefined;
     this.state = this.zip = this.country = undefined;
     this.shipped = false;
-    this.clear();
+    this.cart.clear();
   }
 }
