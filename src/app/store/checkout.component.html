@@ -29,7 +29,7 @@
       class="form-control"
       required
     />
-    <span *ngIf="submitted && name.invalid" class="text-danger"
+    <span *ngIf="submitted && name.invalid" class="text-danger fix-input-error"
       >Please enter your name</span
     >
   </div>
@@ -42,7 +42,9 @@
       class="form-control"
       required
     />
-    <span *ngIf="submitted && address.invalid" class="text-danger"
+    <span
+      *ngIf="submitted && address.invalid"
+      class="text-danger fix-input-error"
       >Please enter your address</span
     >
   </div>
@@ -55,7 +57,7 @@
       class="form-control"
       required
     />
-    <span *ngIf="submitted && city.invalid" class="text-danger"
+    <span *ngIf="submitted && city.invalid" class="text-danger fix-input-error"
       >Please enter your city</span
     >
   </div>
@@ -68,7 +70,7 @@
       class="form-control"
       required
     />
-    <span *ngIf="submitted && state.invalid" class="text-danger"
+    <span *ngIf="submitted && state.invalid" class="text-danger fix-input-error"
       >Please enter your state</span
     >
   </div>
@@ -81,7 +83,7 @@
       class="form-control"
       required
     />
-    <span *ngIf="submitted && zip.invalid" class="text-danger"
+    <span *ngIf="submitted && zip.invalid" class="text-danger fix-input-error"
       >Please enter your zip</span
     >
   </div>
@@ -94,13 +96,16 @@
       class="form-control"
       required
     />
-    <span *ngIf="submitted && country.invalid" class="text-danger"
+    <span
+      *ngIf="submitted && country.invalid"
+      class="text-danger fix-input-error"
       >Please enter your country</span
     >
   </div>
 
   <div class="text-center">
-    <button class="btn btn-secondary m-1" routerLink="/cart">Go back</button
+    <button class="btn btn-secondary m-1" routerLink="/cart">
+      Return to checkout</button
     ><button class="btn btn-primary m-1" type="submit">Complete order</button>
   </div>
 </form>

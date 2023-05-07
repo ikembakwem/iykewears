@@ -1,3 +1,7 @@
+function generateRandomPrice() {
+  return Math.random() * 200 + 200;
+}
+
 module.exports = function () {
   return {
     products: [
@@ -7,7 +11,7 @@ module.exports = function () {
         category: "Men's Shirts",
         description:
           "A comfortable and versatile white t-shirt made from high-quality cotton.",
-        price: 200,
+        price: generateRandomPrice(),
       },
       {
         id: 2,
@@ -15,7 +19,7 @@ module.exports = function () {
         category: "Men's Pants",
         description:
           "These slim-fit blue jeans are made from premium denim and feature a classic five-pocket design.",
-        price: 200,
+        price: generateRandomPrice(),
       },
       {
         id: 3,
@@ -23,7 +27,7 @@ module.exports = function () {
         category: "Men's Shoes",
         description:
           "These stylish leather dress shoes are perfect for any formal occasion.",
-        price: 200,
+        price: generateRandomPrice(),
       },
       {
         id: 4,
@@ -31,7 +35,7 @@ module.exports = function () {
         category: "Men's Jackets",
         description:
           "Stay warm and stylish with this classic wool peacoat, featuring a double-breasted design and a cozy lining.",
-        price: 200,
+        price: generateRandomPrice(),
       },
       {
         id: 5,
@@ -39,7 +43,7 @@ module.exports = function () {
         category: "Men's Shirts",
         description:
           "Made from soft and comfortable flannel, this plaid shirt is perfect for casual outings.",
-        price: 200,
+        price: generateRandomPrice(),
       },
       {
         id: 6,
@@ -47,7 +51,7 @@ module.exports = function () {
         category: "Men's Shorts",
         description:
           "These rugged cargo shorts feature plenty of pockets and are made from durable cotton.",
-        price: 200,
+        price: generateRandomPrice(),
       },
       {
         id: 7,
@@ -55,7 +59,7 @@ module.exports = function () {
         category: "Men's Accessories",
         description:
           "This stylish leather belt features a classic buckle and is the perfect finishing touch to any outfit.",
-        price: 200,
+        price: generateRandomPrice(),
       },
       {
         id: 8,
@@ -63,7 +67,7 @@ module.exports = function () {
         category: "Men's Shirts",
         description:
           "Stay cool and comfortable in this classic polo shirt, made from breathable cotton.",
-        price: 200,
+        price: generateRandomPrice(),
       },
       {
         id: 9,
@@ -71,7 +75,7 @@ module.exports = function () {
         category: "Men's Shoes",
         description:
           "These versatile suede chukka boots are perfect for both casual and dressy occasions.",
-        price: 200,
+        price: generateRandomPrice(),
       },
       {
         id: 10,
@@ -79,7 +83,7 @@ module.exports = function () {
         category: "Men's Sweatshirts",
         description:
           "This cozy hooded sweatshirt is made from soft and warm fleece and features a front kangaroo pocket.",
-        price: 200,
+        price: generateRandomPrice(),
       },
       {
         id: 11,
@@ -87,7 +91,7 @@ module.exports = function () {
         category: "Men's Pants",
         description:
           "Stay stylish and comfortable in these classic corduroy pants, featuring a straight-leg fit and a soft cotton fabric.",
-        price: 200,
+        price: generateRandomPrice(),
       },
       {
         id: 12,
@@ -95,7 +99,7 @@ module.exports = function () {
         category: "Men's Accessories",
         description:
           "Keep your cards and cash organized with this sleek leather wallet, featuring multiple compartments and a classic design.",
-        price: 200,
+        price: generateRandomPrice(),
       },
       {
         id: 13,
@@ -103,7 +107,7 @@ module.exports = function () {
         category: "Men's Shirts",
         description:
           "Make a statement in this bold graphic t-shirt, featuring a unique design and a comfortable fit.",
-        price: 200,
+        price: generateRandomPrice(),
       },
       {
         id: 14,
@@ -111,7 +115,7 @@ module.exports = function () {
         category: "Men's Shoes",
         description:
           "These lightweight running shoes feature a breathable mesh upper and a cushioned sole for maximum comfort.",
-        price: 200,
+        price: generateRandomPrice(),
       },
       {
         id: 15,
@@ -119,7 +123,7 @@ module.exports = function () {
         category: "Men's Jackets",
         description:
           "Stay on trend with this stylish bomber jacket, featuring a sleek design and a comfortable fit.",
-        price: 200,
+        price: generateRandomPrice(),
       },
       {
         id: 16,
@@ -127,7 +131,7 @@ module.exports = function () {
         category: "Men's Pants",
         description:
           "These versatile cargo pants feature plenty of pockets and a comfortable fit, making them perfect for any adventure.",
-        price: 200,
+        price: generateRandomPrice(),
       },
       {
         id: 17,
@@ -135,7 +139,7 @@ module.exports = function () {
         category: "Men's Accessories",
         description:
           "These classic aviator sunglasses feature a metal frame and polarized lenses for maximum protection.",
-        price: 200,
+        price: generateRandomPrice(),
       },
       {
         id: 18,
@@ -143,7 +147,7 @@ module.exports = function () {
         category: "Men's Sweatshirts",
         description:
           "This classic crewneck sweatshirt is made from soft and comfortable fleece and features a ribbed neckline and cuffs.",
-        price: 200,
+        price: generateRandomPrice(),
       },
       {
         id: 19,
@@ -151,7 +155,7 @@ module.exports = function () {
         category: "Men's Shirts",
         description:
           "Look sharp and stylish in this classic dress shirt, made from high-quality cotton and featuring a modern fit.",
-        price: 200,
+        price: generateRandomPrice(),
       },
       {
         id: 20,
@@ -159,7 +163,7 @@ module.exports = function () {
         category: "Men's Accessories",
         description:
           "Keep track of time in style with this sleek leather watch, featuring a classic design and a comfortable strap.",
-        price: 200,
+        price: generateRandomPrice(),
       },
     ],
     orders: [],
