@@ -6,4 +6,4 @@ const features: any[] = [];
   imports: [features],
   exports: [features],
 })
-export class MaterialModule {}
+export class MaterialFeatures {}
